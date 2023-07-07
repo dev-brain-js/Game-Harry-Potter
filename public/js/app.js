@@ -1,7 +1,7 @@
 var harry = document.getElementById("harry");
 var board = document.getElementById("board");
 
-window.addEventListener("keydown",(e) => {// e c'est l'evenement qui appelet apres le clique au botton de clavier
+window.addEventListener("keydown",(e) => {
   var left = parseInt(window.getComputedStyle(harry).getPropertyValue("left"));
   
   if( (e.key == "ArrowLeft" || e.keyCode == 81) && left > 0){
